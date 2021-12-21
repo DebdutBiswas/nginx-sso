@@ -1,0 +1,33 @@
+/*--Font Defination Style Sheet--*/
+/*--OCR A-----------------*/
+@font-face {
+   font-family: OCR A;
+   src: local(OCR A), url('../fonts/OCRA.ttf') format('truetype');
+}
+/*--Harrington-----------------*/
+@font-face {
+   font-family: Harrington;
+   src: local(Harrington), url('../fonts/Harngton.ttf') format('truetype');
+}
+/*--Consolas-----------------*/
+@font-face {
+   font-family: Consolas;
+   src: local(Consolas), url('../fonts/Consolas.ttf') format('truetype');
+}
+/*--Segoe UI-----------------*/
+@font-face {
+   font-family: Segoe UI;
+   src: local(Segoe UI), url('../fonts/SegoeUi.ttf') format('truetype');
+}
+/*--Material Icons-----------------*/
+@font-face {
+  font-family: 'Material Icons';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/MaterialIcons-Regular.eot'); /* For IE6-8 */
+  src: local('Material Icons'),
+    local('MaterialIcons-Regular'),
+    url('../fonts/MaterialIcons-Regular.woff2') format('woff2'),
+    url('../fonts/MaterialIcons-Regular.woff') format('woff'),
+    url('../fonts/MaterialIcons-Regular.ttf') format('truetype');
+}

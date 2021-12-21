@@ -1,0 +1,192 @@
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a:active {
+  text-decoration: none;
+}
+
+body, html {
+  height: 100%;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+div[id=body_background] {/*
+  background-image: url("../images/WebSiteMainBackgroundImg.png");*/
+  background-image: linear-gradient(to right, #514a9d, #24c6dc);
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+div[id=form_background] {
+  border: 1px solid #cccccc;
+  border-radius: 10px;
+  background: rgba(52, 73, 94, 0.50);
+  padding: 20px;
+  width: 420px;
+  height: 510px;
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: 0 0 10px rgba(0, 0, 0, .8);
+}
+
+div[id=form_logo_top] {
+  margin-top: 5px;
+}
+
+h5[id=form_header] {
+  margin-top: 25px;
+  color: #ffffff;
+  font-size: 14px;
+  font-style: bold;
+  text-align: center;
+}
+
+div[id=trial_info] {
+  color: #ffffff;
+  font-size: 12px;
+  text-align: center;
+}
+
+input[id=UserName] {
+  color: #808080;
+  font-size: 16px;
+  background-color: #FDFBFB;
+  padding: 6px 15px;
+  margin-top: 30px;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 20px;
+  box-sizing: border-box;
+  box-shadow: 0 0 10px rgba(0, 0, 0, .8);
+}
+
+input[id=UserName]:focus {
+  background-color: #f3f3f3;
+}
+
+input[id=UserName]:hover {
+  background-color: #f3f3f3;
+}
+
+input[id=Password] {
+  color: #808080;
+  font-size: 16px;
+  background-color: #FDFBFB;
+  padding: 6px 15px;
+  margin-top: 8px;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 20px;
+  box-sizing: border-box;
+  box-shadow: 0 0 10px rgba(0, 0, 0, .8);
+}
+
+input[id=Password]:focus {
+  background-color: #f3f3f3;
+}
+
+input[id=Password]:hover {
+  background-color: #f3f3f3;
+}
+
+button[id=SubmitBtn] {
+  background-color: #4CAF50;
+  color: white;
+  font-size: 16px;
+  padding: 6px;
+  margin-top: 20px;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  box-shadow: 0 0 10px rgba(0, 0, 0, .8);
+}
+
+button[id=SubmitBtn]:hover {
+  background-color: #45a049;
+}
+
+div[id=error_text] {
+  margin-top: 10px;
+  color: #FF8080;
+  font-size: 12px;
+  text-align: center;
+}
+
+div[id=form_logo_bottom] {
+  margin-top: 5px;
+}
+
+div[id=powered_by_text] {
+  margin-top: 20px;
+  color: #ffffff;
+  font-size: 12px;
+  text-align: center;
+}
+
+table{
+  box-shadow: 0 0 10px rgba(0, 0, 0, .8);
+}
+
+.table-curved {
+  border: 0px;
+  border-radius: 10px;
+  border-left: 0px;
+  border-top: 0px;
+}
+.table-curved > thead:first-child > tr:first-child > th {
+  border-bottom: 0px;
+  border-top: 0px;
+}
+.table-curved td, .table-curved th {
+ border-left: 0px;
+ border-top: 0px;
+}
+.table-curved > :first-child > :first-child > :first-child {
+  border-top-left-radius: 10px;
+}
+.table-curved > :first-child > :first-child > :last-child {
+  border-top-right-radius: 10px;
+}
+.table-curved > :last-child > :last-child > :first-child {
+  border-bottom-left-radius: 10px;
+}
+.table-curved > :last-child > :last-child > :last-child {
+  border-bottom-right-radius: 10px;
+}
+
+@media only screen and (max-width:480px) {
+  div[id=form_background] {
+    width: 330px;
+    margin-top: 25px;
+  }
+  table {
+    font-size: 15px;
+  }
+}
+
+@media only screen and (max-width:320px) {
+  div[id=form_background] {
+    width: 270px;
+    margin-top: 20px;
+  }
+  table {
+    font-size: 14px;
+  }
+}
