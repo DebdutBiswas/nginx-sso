@@ -1,5 +1,5 @@
 # nginx-sso
-Single-Sign-On integration with Nginx forward proxy to secure proxy backend web apps
+Single-Sign-On integration with Nginx reverse proxy to secure proxy backend web apps
 
 ## Features:
 - Protectes any kind of http, https and web socket proxied backend
