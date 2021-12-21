@@ -13,7 +13,7 @@ Here is a small diagram describes our sso server mechanism:
 
 ## Usage:
 We can easily integrate with existing Nginx configuration like so:
-```
+```nginx
 http {
     .
     .
