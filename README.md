@@ -9,7 +9,7 @@ Single-Sign-On integration with Nginx forward proxy to secure proxy backend web 
 ## Working:
 Here is a small diagram describes our sso server mechanism:
 
-
+![Nginx SSO](/assets/images/nginx-sso-diagram.png)
 
 ## Usage:
 We can easily integrate with existing Nginx configuration like so:
